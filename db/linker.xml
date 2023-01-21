@@ -372,6 +372,7 @@
     <targets>
       <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
       <target name="^arm(-none)?-eabi$" />
+      <target name="^msp430-elf$" />
     </targets>
     <config>
    for Archive_Builder  use ("${PREFIX(Ada)}ar", "cr");
@@ -389,6 +390,7 @@
     <targets>
       <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
       <target name="^arm(-none)?-eabi$" />
+      <target name="^msp430-elf$" />
     </targets>
     <config>
    for Archive_Builder  use ("${PREFIX(c)}ar", "cr");
@@ -406,6 +408,7 @@
     <targets>
       <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
       <target name="^arm(-none)?-eabi$" />
+      <target name="^msp430-elf$" />
     </targets>
     <config>
    for Archive_Builder  use ("${PREFIX(c++)}ar", "cr");
@@ -898,6 +901,7 @@
       <target name="^.*-wrs-vxworks.*$" />
       <target name="^visium-elf$"/>
       <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
+      <target name="^msp430-elf$" />
       <target name="^m68020-elf$"/>
       <target name="^powerpc-elf$"/>
       <target name="^powerpc-elf-lynxos$" />
@@ -987,6 +991,7 @@
        <target name="^i686-elf$" />
        <target name="^visium-elf$" />
        <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
+       <target name="^msp430-elf$" />
        <target name="^m68020-elf$" />
        <target name="^powerpc-elf$" />
        <target name="^powerpc-eabispe$" />
@@ -1691,6 +1696,7 @@
        <target name="^i686-elf$" />
        <target name="^visium-elf$" />
        <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
+       <target name="^msp430-elf$" />
        <target name="^m68020-elf$" />
        <target name="^powerpc-elf$" />
        <target name="^powerpc-eabispe$" />
@@ -1747,6 +1753,7 @@
        <target name="^i686-elf$" />
        <target name="^visium-elf$" />
        <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
+       <target name="^msp430-elf$" />
        <target name="^m68020-elf$" />
        <target name="^powerpc-elf$" />
        <target name="^powerpc-eabispe$" />
@@ -1785,6 +1792,7 @@
        <target name="^i686-elf$" />
        <target name="^visium-elf$" />
        <target name="^riscv(32|64)(-none|-unknown)?-elf$" />
+       <target name="^msp430-elf$" />
        <target name="^m68020-elf$" />
        <target name="^powerpc-elf$" />
        <target name="^powerpc-eabispe$" />
